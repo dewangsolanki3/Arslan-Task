@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .myContainer{
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        .upper{
+            position: relative;
+            background-color: blue;
+            height: 40%;
+            width: 100%;
+        }
+        .middle{
+            padding: 0 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: relative;
+            background-color: yellow;
+            height: 50%;
+            box-sizing: border-box;  
+            width: 100%;
+        }
+            .kids{
+                position: relative;
+                background-color: orange;
+                height: 40%;
+                width: 100%;
+            }
+
+        .footer{
+            background-color: crimson;
+            height: 10%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="myContainer">
+
+        <div class="upper"></div>
+        <div class="middle">
+            <div class="kids"></div>
+            <div class="kids"></div>
+        </div>
+        <div class="footer"></div>
+
+    </div>
+</body>
+</html>
